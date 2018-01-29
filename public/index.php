@@ -77,12 +77,8 @@
 </header>
 
 <div>
-    <h3>Please help out by taking the <a href="http://www.surveygizmo.com/collab/4149206/DDD-Initial-steps">survey on domain modelling (2018)</a><br>by Maurício Aniche (TU Delft)</h3>
-    <h3><a href="https://codeburst.io/what-do-we-not-know-about-ddd-93727bc5908c">What do we (not) know about Domain-Driven Design? (2017)</a><br>by Maurício Aniche (TU Delft)</h3>
-    <h3><a href="http://ieeexplore.ieee.org/document/7884621/">The dark side of event sourcing: Managing data conversion</a><br>by Michiel Overeem (AFAS Software), Marten Spoor (AFAS Software), Slinger Jansen (Utrecht University)</h3>
-    <h3><a href="papers/landre_einar_2006_part1.pdf">Architectural Improvement by use of Strategic Level Domain-Driven Design (2006)</a><br>by Einar Landre (Statoil ASA), Harald Wesenberg (Statoil ASA), Harald Rønneberg (Statoil ASA)</h3>
+<?php include __DIR__.'/../papers.html'?>
 </div>
-
 
 <a name="mailinglist"></a>
 <div class="mailinglist">
