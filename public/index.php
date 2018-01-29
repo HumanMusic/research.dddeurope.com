@@ -1,7 +1,7 @@
 <?php
     $site_url = 'https://dddeurope.com/2019';
-    $page_title = 'Domain-Driven Design Europe 2019';
-    $page_description = 'The Software Modelling & Design Conference';
+    $page_title = 'Domain-Driven Design Research';
+    $page_description = 'Academic Research on Domain-Driven Design';
     $twitter_handle = '@ddd_eu';
     $youtube_handle = 'DomainDrivenDesignEurope';
     $facebook_handle = 'dddeurope';
@@ -72,7 +72,7 @@
         <img src="<?= $logo; ?>" alt="<?= $page_title; ?>">
     </a>
     <div>
-        <h1>Academic Research on Domain-Driven Design</h1>
+        <h1><?=$page_description?></h1>
     </div>
 </header>
 
