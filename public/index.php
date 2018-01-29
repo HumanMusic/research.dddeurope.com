@@ -68,42 +68,21 @@
 <body>
 
 <header>
-    <img src="<?= $logo; ?>" alt="<?= $page_title; ?>">
+    <a href="https://dddeurope.com">
+        <img src="<?= $logo; ?>" alt="<?= $page_title; ?>">
+    </a>
     <div>
-        <h1>The Software Modelling & Design Conference</h1>
-        <h2>returns to the Netherlands in Early 2019</h2>
-        <h2>dates to be announced</h2>
+        <h1>Academic Research on Domain-Driven Design</h1>
     </div>
-
-    <p class="social">
-        <small>
-            <a href="https://twitter.com/<?= $twitter_handle; ?>">
-                <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                Twitter
-            </a>
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="https://www.youtube.com/c/<?= $youtube_handle; ?>">
-                <i class="fa fa-youtube-square" aria-hidden="true"></i>
-                YouTube
-            </a>
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a href="https://www.facebook.com/<?= $facebook_handle; ?>">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                Facebook
-            </a>
-        </small>
-    </p>
-
-    <p>
-        Can't wait?
-        <br>Get <a href="https://training.dddeurope.com/">Domain-Driven Design Training</a>
-        <br>Eric Evans, Alberto Brandolini, Mathias Verraes, Paul Rayner, ...
-        <br>Paris, Amsterdam, Brussels, on premise..
-    </p>
-
 </header>
 
-<tito-widget event="hm/dddeu19"></tito-widget>
+<div>
+    <h3>Please help out by taking the <a href="http://www.surveygizmo.com/collab/4149206/DDD-Initial-steps">survey on domain modelling (2018)</a><br>by Maurício Aniche (TU Delft)</h3>
+    <h3><a href="https://codeburst.io/what-do-we-not-know-about-ddd-93727bc5908c">What do we (not) know about Domain-Driven Design? (2017)</a><br>by Maurício Aniche (TU Delft)</h3>
+    <h3><a href="http://ieeexplore.ieee.org/document/7884621/">The dark side of event sourcing: Managing data conversion</a><br>by Michiel Overeem (AFAS Software), Marten Spoor (AFAS Software), Slinger Jansen (Utrecht University)</h3>
+    <h3><a href="papers/landre_einar_2006_part1.pdf">Architectural Improvement by use of Strategic Level Domain-Driven Design (2006)</a><br>by Einar Landre (Statoil ASA), Harald Wesenberg (Statoil ASA), Harald Rønneberg (Statoil ASA)</h3>
+</div>
+
 
 <a name="mailinglist"></a>
 <div class="mailinglist">
