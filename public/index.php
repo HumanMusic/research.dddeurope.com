@@ -1,5 +1,5 @@
 <?php
-    $site_url = 'https://dddeurope.com/2019';
+    $site_url = 'https://research.dddeurope.com';
     $page_title = 'Domain-Driven Design Research';
     $page_description = 'Academic Research on Domain-Driven Design';
     $twitter_handle = '@ddd_eu';
